@@ -1,0 +1,118 @@
+@font-face {
+  font-family: barbie;
+  src: url(DollieScript_PersonalUse.ttf);
+}
+@font-face {
+  font-family: barbie-medium;
+  src: url(barbie.ttf);
+}
+body {
+  margin: 0;
+  background-color: #f29ad8;
+}
+img {
+  width: 480px;
+  border-radius: 1200px;
+  filter: drop-shadow(0px 10px 20px #ee71c3);
+  margin-top: 10px;
+}
+.left h1 {
+  color: #e305ad;
+  font-family: barbie;
+  font-size: 90pt;
+  margin: 0px;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.right {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeleft {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: px 10px 30px rgba(0, 0, 0, 0.581);
+}
+.login-box {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #ee71c3;
+  border-radius: 30px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.581);
+}
+.login-box h1 {
+  color: #e305ad;
+  font-weight: 800;
+  font-family: barbie;
+  font-size: 50pt;
+}
+.textfield {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 0px;
+  width: 80%;
+}
+.textfield input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #f658b8;
+  color: white;
+  font-size: 12pt;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.581);
+  outline: none;
+  box-sizing: border-box;
+}
+.textfield label {
+  color: white;
+  margin-bottom: 10px;
+  font-family: barbie-medium;
+}
+.textfield input::placeholder {
+  color: rgb(241, 241, 241);
+  font-family: barbie-medium;
+}
+.btn {
+  width: 80%;
+  padding: 16px 0px;
+  margin: 30px;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  background-color: #f039b1;
+  border: none;
+  font-family: barbie-medium;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.581);
+}
